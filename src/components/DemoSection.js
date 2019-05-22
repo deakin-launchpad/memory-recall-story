@@ -12,6 +12,7 @@ export default class DemoSection extends Component {
   }
   fullScreen = () => {
     this.setState({ show: !this.state.show, close: !this.state.close  });
+    console.log('[STATE]',this.state)
   };
   render() {
     console.log('[SHOW]', this.state)
