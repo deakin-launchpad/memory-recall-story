@@ -20,7 +20,7 @@ export default class DemoSection extends Component {
         <div className="full-screen relative">
           <iframe
             id="demo-frame2"
-            src="http://10.137.0.157:3011/"
+            src="http://10.137.0.157:3016/"
             className={`demo demo2 `}
             style={this.state.show ? framStyle : {}}
             title="launch-demo"
